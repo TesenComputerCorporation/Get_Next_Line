@@ -1,0 +1,517 @@
+Subject: [Deepthought] Your trace for Get_Next_Line
+From: deepthought-no-reply@21-school.ru
+To: jjerde@student.21-school.ru
+Date: Mon, 29 Apr 2019 19:51:31 +0300
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+ox-g5.21-school.ru
+Darwin 16.7.0 x86_64
+$> date
+Mon Apr 29 19:50:55 MSK 2019
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: intra/2019/activities/get_next_line/jjerde
+
+= Git history ==================================================================
+$> git -C /var/folders/gx/wtkmjrm54yv68sy12fswvsk80000gq/T/tmpKKdXlX/user log --pretty='%H - %an, %ad : %s'
+04d9800957b2ae936d7d37e0804189a27c0161e5 - Jhiqui Jerde, Mon Apr 29 18:16:33 2019 +0300 : Modify func
+cb432f5621f86e970a35d4834e2942ca7e2f0e89 - Jhiqui Jerde, Mon Apr 29 16:30:50 2019 +0300 : gnl-ready
+
+= Collected files ==========================================
+$> ls -lAR /var/folders/gx/wtkmjrm54yv68sy12fswvsk80000gq/T/tmpKKdXlX/user
+total 40
+-rw-r--r--    1 deepthought  deepthought  7111 Apr 29 19:50 __GIT_HISTORY
+-rw-r--r--    1 deepthought  deepthought     7 Apr 29 19:50 author
+-rw-r--r--    1 deepthought  deepthought  2944 Apr 29 19:50 get_next_line.c
+-rw-r--r--    1 deepthought  deepthought  1047 Apr 29 19:50 get_next_line.h
+drwxr-xr-x  141 deepthought  deepthought  4794 Apr 29 19:50 libft
+
+/var/folders/gx/wtkmjrm54yv68sy12fswvsk80000gq/T/tmpKKdXlX/user/libft:
+total 1240
+-rw-r--r--  1 deepthought  deepthought   6148 Apr 29 19:50 .DS_Store
+-rw-r--r--  1 deepthought  deepthought   3146 Apr 29 19:50 Makefile
+-rw-r--r--  1 deepthought  deepthought      7 Apr 29 19:50 author
+-rw-r--r--  1 deepthought  deepthought   1402 Apr 29 19:50 ft_atoi.c
+-rw-r--r--  1 deepthought  deepthought   1124 Apr 29 19:50 ft_atoi.o
+-rw-r--r--  1 deepthought  deepthought   1061 Apr 29 19:50 ft_bzero.c
+-rw-r--r--  1 deepthought  deepthought    692 Apr 29 19:50 ft_bzero.o
+-rw-r--r--  1 deepthought  deepthought   1009 Apr 29 19:50 ft_clearone.c
+-rw-r--r--  1 deepthought  deepthought    684 Apr 29 19:50 ft_clearone.o
+-rw-r--r--  1 deepthought  deepthought   1139 Apr 29 19:50 ft_count_words.c
+-rw-r--r--  1 deepthought  deepthought    844 Apr 29 19:50 ft_count_words.o
+-rw-r--r--  1 deepthought  deepthought   1029 Apr 29 19:50 ft_isalnum.c
+-rw-r--r--  1 deepthought  deepthought    696 Apr 29 19:50 ft_isalnum.o
+-rw-r--r--  1 deepthought  deepthought   1003 Apr 29 19:50 ft_isalpha.c
+-rw-r--r--  1 deepthought  deepthought    672 Apr 29 19:50 ft_isalpha.o
+-rw-r--r--  1 deepthought  deepthought    970 Apr 29 19:50 ft_isascii.c
+-rw-r--r--  1 deepthought  deepthought    656 Apr 29 19:50 ft_isascii.o
+-rw-r--r--  1 deepthought  deepthought    975 Apr 29 19:50 ft_isdigit.c
+-rw-r--r--  1 deepthought  deepthought    656 Apr 29 19:50 ft_isdigit.o
+-rw-r--r--  1 deepthought  deepthought    971 Apr 29 19:50 ft_isprint.c
+-rw-r--r--  1 deepthought  deepthought    656 Apr 29 19:50 ft_isprint.o
+-rw-r--r--  1 deepthought  deepthought   1028 Apr 29 19:50 ft_isspace.c
+-rw-r--r--  1 deepthought  deepthought    696 Apr 29 19:50 ft_isspace.o
+-rw-r--r--  1 deepthought  deepthought   1030 Apr 29 19:50 ft_isxdigit.c
+-rw-r--r--  1 deepthought  deepthought    696 Apr 29 19:50 ft_isxdigit.o
+-rw-r--r--  1 deepthought  deepthought   1410 Apr 29 19:50 ft_itoa.c
+-rw-r--r--  1 deepthought  deepthought   1108 Apr 29 19:50 ft_itoa.o
+-rw-r--r--  1 deepthought  deepthought   1280 Apr 29 19:50 ft_linedelone.c
+-rw-r--r--  1 deepthought  deepthought    924 Apr 29 19:50 ft_linedelone.o
+-rw-r--r--  1 deepthought  deepthought   1078 Apr 29 19:50 ft_list_size.c
+-rw-r--r--  1 deepthought  deepthought    672 Apr 29 19:50 ft_list_size.o
+-rw-r--r--  1 deepthought  deepthought   1035 Apr 29 19:50 ft_lstadd.c
+-rw-r--r--  1 deepthought  deepthought    660 Apr 29 19:50 ft_lstadd.o
+-rw-r--r--  1 deepthought  deepthought   1170 Apr 29 19:50 ft_lstdel.c
+-rw-r--r--  1 deepthought  deepthought    772 Apr 29 19:50 ft_lstdel.o
+-rw-r--r--  1 deepthought  deepthought   1098 Apr 29 19:50 ft_lstdelone.c
+-rw-r--r--  1 deepthought  deepthought    736 Apr 29 19:50 ft_lstdelone.o
+-rw-r--r--  1 deepthought  deepthought   1068 Apr 29 19:50 ft_lstiter.c
+-rw-r--r--  1 deepthought  deepthought    696 Apr 29 19:50 ft_lstiter.o
+-rw-r--r--  1 deepthought  deepthought   1254 Apr 29 19:50 ft_lstmap.c
+-rw-r--r--  1 deepthought  deepthought    860 Apr 29 19:50 ft_lstmap.o
+-rw-r--r--  1 deepthought  deepthought   1446 Apr 29 19:50 ft_lstnew.c
+-rw-r--r--  1 deepthought  deepthought    984 Apr 29 19:50 ft_lstnew.o
+-rw-r--r--  1 deepthought  deepthought   1043 Apr 29 19:50 ft_memalloc.c
+-rw-r--r--  1 deepthought  deepthought    744 Apr 29 19:50 ft_memalloc.o
+-rw-r--r--  1 deepthought  deepthought   1272 Apr 29 19:50 ft_memccpy.c
+-rw-r--r--  1 deepthought  deepthought    768 Apr 29 19:50 ft_memccpy.o
+-rw-r--r--  1 deepthought  deepthought   1169 Apr 29 19:50 ft_memchr.c
+-rw-r--r--  1 deepthought  deepthought    724 Apr 29 19:50 ft_memchr.o
+-rw-r--r--  1 deepthought  deepthought   1186 Apr 29 19:50 ft_memcmp.c
+-rw-r--r--  1 deepthought  deepthought    756 Apr 29 19:50 ft_memcmp.o
+-rw-r--r--  1 deepthought  deepthought   1133 Apr 29 19:50 ft_memcpy.c
+-rw-r--r--  1 deepthought  deepthought    740 Apr 29 19:50 ft_memcpy.o
+-rw-r--r--  1 deepthought  deepthought    988 Apr 29 19:50 ft_memdel.c
+-rw-r--r--  1 deepthought  deepthought    700 Apr 29 19:50 ft_memdel.o
+-rw-r--r--  1 deepthought  deepthought   1244 Apr 29 19:50 ft_memmove.c
+-rw-r--r--  1 deepthought  deepthought    824 Apr 29 19:50 ft_memmove.o
+-rw-r--r--  1 deepthought  deepthought   1115 Apr 29 19:50 ft_memset.c
+-rw-r--r--  1 deepthought  deepthought    684 Apr 29 19:50 ft_memset.o
+-rw-r--r--  1 deepthought  deepthought    958 Apr 29 19:50 ft_putchar.c
+-rw-r--r--  1 deepthought  deepthought    676 Apr 29 19:50 ft_putchar.o
+-rw-r--r--  1 deepthought  deepthought    970 Apr 29 19:50 ft_putchar_fd.c
+-rw-r--r--  1 deepthought  deepthought    688 Apr 29 19:50 ft_putchar_fd.o
+-rw-r--r--  1 deepthought  deepthought   1053 Apr 29 19:50 ft_putendl.c
+-rw-r--r--  1 deepthought  deepthought    868 Apr 29 19:50 ft_putendl.o
+-rw-r--r--  1 deepthought  deepthought   1066 Apr 29 19:50 ft_putendl_fd.c
+-rw-r--r--  1 deepthought  deepthought    872 Apr 29 19:50 ft_putendl_fd.o
+-rw-r--r--  1 deepthought  deepthought   1148 Apr 29 19:50 ft_putnbr.c
+-rw-r--r--  1 deepthought  deepthought    940 Apr 29 19:50 ft_putnbr.o
+-rw-r--r--  1 deepthought  deepthought   1169 Apr 29 19:50 ft_putnbr_fd.c
+-rw-r--r--  1 deepthought  deepthought    944 Apr 29 19:50 ft_putnbr_fd.o
+-rw-r--r--  1 deepthought  deepthought   1028 Apr 29 19:50 ft_putstr.c
+-rw-r--r--  1 deepthought  deepthought    740 Apr 29 19:50 ft_putstr.o
+-rw-r--r--  1 deepthought  deepthought   1040 Apr 29 19:50 ft_putstr_fd.c
+-rw-r--r--  1 deepthought  deepthought    752 Apr 29 19:50 ft_putstr_fd.o
+-rw-r--r--  1 deepthought  deepthought   1088 Apr 29 19:50 ft_strcat.c
+-rw-r--r--  1 deepthought  deepthought    748 Apr 29 19:50 ft_strcat.o
+-rw-r--r--  1 deepthought  deepthought   1100 Apr 29 19:50 ft_strchr.c
+-rw-r--r--  1 deepthought  deepthought    748 Apr 29 19:50 ft_strchr.o
+-rw-r--r--  1 deepthought  deepthought   1030 Apr 29 19:50 ft_strclen.c
+-rw-r--r--  1 deepthought  deepthought    720 Apr 29 19:50 ft_strclen.o
+-rw-r--r--  1 deepthought  deepthought   1018 Apr 29 19:50 ft_strclr.c
+-rw-r--r--  1 deepthought  deepthought    684 Apr 29 19:50 ft_strclr.o
+-rw-r--r--  1 deepthought  deepthought   1096 Apr 29 19:50 ft_strcmp.c
+-rw-r--r--  1 deepthought  deepthought    780 Apr 29 19:50 ft_strcmp.o
+-rw-r--r--  1 deepthought  deepthought   1041 Apr 29 19:50 ft_strcpy.c
+-rw-r--r--  1 deepthought  deepthought    692 Apr 29 19:50 ft_strcpy.o
+-rw-r--r--  1 deepthought  deepthought    991 Apr 29 19:50 ft_strdel.c
+-rw-r--r--  1 deepthought  deepthought    700 Apr 29 19:50 ft_strdel.o
+-rw-r--r--  1 deepthought  deepthought   1133 Apr 29 19:50 ft_strdup.c
+-rw-r--r--  1 deepthought  deepthought    832 Apr 29 19:50 ft_strdup.o
+-rw-r--r--  1 deepthought  deepthought   1132 Apr 29 19:50 ft_strequ.c
+-rw-r--r--  1 deepthought  deepthought    836 Apr 29 19:50 ft_strequ.o
+-rw-r--r--  1 deepthought  deepthought   1042 Apr 29 19:50 ft_striter.c
+-rw-r--r--  1 deepthought  deepthought    720 Apr 29 19:50 ft_striter.o
+-rw-r--r--  1 deepthought  deepthought   1069 Apr 29 19:50 ft_striteri.c
+-rw-r--r--  1 deepthought  deepthought    720 Apr 29 19:50 ft_striteri.o
+-rw-r--r--  1 deepthought  deepthought   1269 Apr 29 19:50 ft_strjoin.c
+-rw-r--r--  1 deepthought  deepthought    960 Apr 29 19:50 ft_strjoin.o
+-rw-r--r--  1 deepthought  deepthought   1271 Apr 29 19:50 ft_strlcat.c
+-rw-r--r--  1 deepthought  deepthought    928 Apr 29 19:50 ft_strlcat.o
+-rw-r--r--  1 deepthought  deepthought   1006 Apr 29 19:50 ft_strlen.c
+-rw-r--r--  1 deepthought  deepthought    660 Apr 29 19:50 ft_strlen.o
+-rw-r--r--  1 deepthought  deepthought   1212 Apr 29 19:50 ft_strmap.c
+-rw-r--r--  1 deepthought  deepthought    904 Apr 29 19:50 ft_strmap.o
+-rw-r--r--  1 deepthought  deepthought   1230 Apr 29 19:50 ft_strmapi.c
+-rw-r--r--  1 deepthought  deepthought    904 Apr 29 19:50 ft_strmapi.o
+-rw-r--r--  1 deepthought  deepthought   1148 Apr 29 19:50 ft_strncat.c
+-rw-r--r--  1 deepthought  deepthought    800 Apr 29 19:50 ft_strncat.o
+-rw-r--r--  1 deepthought  deepthought   1141 Apr 29 19:50 ft_strncmp.c
+-rw-r--r--  1 deepthought  deepthought    808 Apr 29 19:50 ft_strncmp.o
+-rw-r--r--  1 deepthought  deepthought   1131 Apr 29 19:50 ft_strncpy.c
+-rw-r--r--  1 deepthought  deepthought    760 Apr 29 19:50 ft_strncpy.o
+-rw-r--r--  1 deepthought  deepthought   1175 Apr 29 19:50 ft_strnequ.c
+-rw-r--r--  1 deepthought  deepthought    888 Apr 29 19:50 ft_strnequ.o
+-rw-r--r--  1 deepthought  deepthought   1142 Apr 29 19:50 ft_strnew.c
+-rw-r--r--  1 deepthought  deepthought    796 Apr 29 19:50 ft_strnew.o
+-rw-r--r--  1 deepthought  deepthought   1336 Apr 29 19:50 ft_strnstr.c
+-rw-r--r--  1 deepthought  deepthought    992 Apr 29 19:50 ft_strnstr.o
+-rw-r--r--  1 deepthought  deepthought   1211 Apr 29 19:50 ft_strrchr.c
+-rw-r--r--  1 deepthought  deepthought    824 Apr 29 19:50 ft_strrchr.o
+-rw-r--r--  1 deepthought  deepthought   1290 Apr 29 19:50 ft_strrejoin.c
+-rw-r--r--  1 deepthought  deepthought   1000 Apr 29 19:50 ft_strrejoin.o
+-rw-r--r--  1 deepthought  deepthought   1078 Apr 29 19:50 ft_strsearch.c
+-rw-r--r--  1 deepthought  deepthought    776 Apr 29 19:50 ft_strsearch.o
+-rw-r--r--  1 deepthought  deepthought   1603 Apr 29 19:50 ft_strsplit.c
+-rw-r--r--  1 deepthought  deepthought   1440 Apr 29 19:50 ft_strsplit.o
+-rw-r--r--  1 deepthought  deepthought   1288 Apr 29 19:50 ft_strstr.c
+-rw-r--r--  1 deepthought  deepthought    924 Apr 29 19:50 ft_strstr.o
+-rw-r--r--  1 deepthought  deepthought   1190 Apr 29 19:50 ft_strsub.c
+-rw-r--r--  1 deepthought  deepthought    820 Apr 29 19:50 ft_strsub.o
+-rw-r--r--  1 deepthought  deepthought   1370 Apr 29 19:50 ft_strtrim.c
+-rw-r--r--  1 deepthought  deepthought   1120 Apr 29 19:50 ft_strtrim.o
+-rw-r--r--  1 deepthought  deepthought    969 Apr 29 19:50 ft_tolower.c
+-rw-r--r--  1 deepthought  deepthought    648 Apr 29 19:50 ft_tolower.o
+-rw-r--r--  1 deepthought  deepthought    969 Apr 29 19:50 ft_toupper.c
+-rw-r--r--  1 deepthought  deepthought    648 Apr 29 19:50 ft_toupper.o
+-rw-r--r--  1 deepthought  deepthought  60600 Apr 29 19:50 libft.a
+-rw-r--r--  1 deepthought  deepthought   4213 Apr 29 19:50 libft.h
+
+= test_error ===================================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_errors.o -c test_errors.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_errors.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_errors: [ok]
+
+1/1 correct tests
+Grade: 10
+
+= test_basic ===================================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 1
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_simple.o -c test_simple.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_fds.o -c test_fds.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_simple.o test_fds.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_simple_1: [ok]
+test_fds_1: [ok]
+
+
+BUFF_SIZE changed to 4
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_simple.o -c test_simple.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_fds.o -c test_fds.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_simple.o test_fds.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_simple_4: [ok]
+test_fds_4: [ok]
+
+
+BUFF_SIZE changed to 100
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_simple.o -c test_simple.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_fds.o -c test_fds.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_simple.o test_fds.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_simple_100: [ok]
+test_fds_100: [ok]
+
+
+BUFF_SIZE changed to 2056
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_simple.o -c test_simple.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_fds.o -c test_fds.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_simple.o test_fds.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_simple_2056: [ok]
+test_fds_2056: [ok]
+
+8/8 correct tests
+Grade: 10
+
+= test_medium ==================================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 100
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_medium.o -c test_medium.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_medium.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_medium_100: [ok]
+
+
+BUFF_SIZE changed to 2048
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_medium.o -c test_medium.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_medium.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_medium_2048: [ok]
+
+
+BUFF_SIZE changed to 4096
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_medium.o -c test_medium.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_medium.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_medium_4096: [ok]
+
+3/3 correct tests
+Grade: 10
+
+= test_hard ====================================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 50000
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_hard.o -c test_hard.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_hard.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_hard_50000: [ok]
+
+1/1 correct tests
+Grade: 10
+
+= test_random_buff =============================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 12552
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_buff_filelength.o -c test_buff_filelength.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_buff_filelength.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_buff_filelength_12552: [ok]
+
+
+BUFF_SIZE changed to 16655
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_buff_filelength.o -c test_buff_filelength.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_buff_filelength.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_buff_filelength_16655: [ok]
+
+
+BUFF_SIZE changed to 3229
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_buff_filelength.o -c test_buff_filelength.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_buff_filelength.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_buff_filelength_3229: [ok]
+
+3/3 correct tests
+Grade: 20
+
+= test_full_random =============================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 47246
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_full_random.o -c test_full_random.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_full_random.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_full_random_47246: [ok]
+
+
+BUFF_SIZE changed to 33473
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_full_random.o -c test_full_random.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_full_random.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_full_random_33473: [ok]
+
+
+BUFF_SIZE changed to 41553
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_full_random.o -c test_full_random.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_full_random.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_full_random_41553: [ok]
+
+
+BUFF_SIZE changed to 40314
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_full_random.o -c test_full_random.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_full_random.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_full_random_40314: [ok]
+
+4/4 correct tests
+Grade: 20
+
+= test_non_printable ===========================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 7728
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_non_printable.o -c test_non_printable.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_non_printable.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_non_printable_7728: [ok]
+
+1/1 correct tests
+Grade: 20
+
+= test_bonus_static ============================================================
+Define found
+OK 1 static found
+1/1 correct tests
+Grade: 10
+
+= test_bonus_fd ================================================================
+/bin/rm -f ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -c -I. ft_lstdelone.c ft_putchar_fd.c ft_strdup.c ft_strnew.c ft_lstiter.c ft_putendl.c ft_strequ.c ft_strnstr.c ft_lstmap.c ft_putendl_fd.c ft_striter.c ft_strrchr.c ft_atoi.c ft_lstnew.c ft_putnbr.c ft_striteri.c ft_strsplit.c ft_bzero.c ft_memalloc.c ft_putnbr_fd.c ft_strjoin.c ft_strstr.c ft_isalnum.c ft_memccpy.c ft_putstr.c ft_strlcat.c ft_strsub.c ft_isalpha.c ft_memchr.c ft_putstr_fd.c ft_strlen.c ft_strtrim.c ft_isascii.c ft_memcmp.c ft_strcat.c ft_strmap.c ft_tolower.c ft_isdigit.c ft_memcpy.c ft_strchr.c ft_strmapi.c ft_toupper.c ft_isprint.c ft_memdel.c ft_strclr.c ft_strncat.c ft_itoa.c ft_memmove.c ft_strcmp.c ft_strncmp.c ft_lstadd.c ft_memset.c ft_strcpy.c ft_strncpy.c ft_lstdel.c ft_putchar.c ft_strdel.c ft_strnequ.c ft_strclen.c ft_isspace.c ft_isxdigit.c ft_clearone.c ft_list_size.c ft_count_words.c ft_strsearch.c ft_strrejoin.c ft_linedelone.c
+ar rc libft.a ft_lstdelone.o ft_putchar_fd.o ft_strdup.o ft_strnew.o ft_lstiter.o ft_putendl.o ft_strequ.o ft_strnstr.o ft_lstmap.o ft_putendl_fd.o ft_striter.o ft_strrchr.o ft_atoi.o ft_lstnew.o ft_putnbr.o ft_striteri.o ft_strsplit.o ft_bzero.o ft_memalloc.o ft_putnbr_fd.o ft_strjoin.o ft_strstr.o ft_isalnum.o ft_memccpy.o ft_putstr.o ft_strlcat.o ft_strsub.o ft_isalpha.o ft_memchr.o ft_putstr_fd.o ft_strlen.o ft_strtrim.o ft_isascii.o ft_memcmp.o ft_strcat.o ft_strmap.o ft_tolower.o ft_isdigit.o ft_memcpy.o ft_strchr.o ft_strmapi.o ft_toupper.o ft_isprint.o ft_memdel.o ft_strclr.o ft_strncat.o ft_itoa.o ft_memmove.o ft_strcmp.o ft_strncmp.o ft_lstadd.o ft_memset.o ft_strcpy.o ft_strncpy.o ft_lstdel.o ft_putchar.o ft_strdel.o ft_strnequ.o ft_strclen.o ft_isspace.o ft_isxdigit.o ft_clearone.o ft_list_size.o ft_count_words.o ft_strsearch.o ft_strrejoin.o ft_linedelone.o
+
+Define found
+
+BUFF_SIZE changed to 1
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_multiple_fd.o -c test_multiple_fd.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_multiple_fd.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_multiplefd_1: [ok]
+
+
+BUFF_SIZE changed to 4
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_multiple_fd.o -c test_multiple_fd.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_multiple_fd.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_multiplefd_4: [ok]
+
+
+BUFF_SIZE changed to 100
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_multiple_fd.o -c test_multiple_fd.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_multiple_fd.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_multiplefd_100: [ok]
+
+
+BUFF_SIZE changed to 1024
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_multiple_fd.o -c test_multiple_fd.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_multiple_fd.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_multiplefd_1024: [ok]
+
+
+BUFF_SIZE changed to 2048
+/bin/rm -f
+/bin/rm -f test_gnl
+clang -I libft/includes -I libft/ -o main.o -c main.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o test_multiple_fd.o -c test_multiple_fd.c -Wall -Wextra -Werror -g3
+clang -I libft/includes -I libft/ -o get_next_line.o -c get_next_line.c -Wall -Wextra -Werror -g3
+clang -o test_gnl main.o test_multiple_fd.o get_next_line.o -I libft/includes -I libft/ -L libft/ -lft
+
+test_multiplefd_2048: [ok]
+
+5/5 correct tests
+Grade: 15
+
+= Final grade: 125 =============================================================
+
+END
